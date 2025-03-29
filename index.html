@@ -4,29 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test de Pureté</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark-mode">
+
     <div class="container">
-        <h1 class="text-center my-4">Test de Pureté</h1>
+        <h1>Test de Pureté</h1>
         
-        <div class="progress mb-3">
-            <div id="progress-bar" class="progress-bar bg-success" role="progressbar" style="width: 0%;">0%</div>
+        <div class="progress-container">
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <span id="progress-text">0%</span>
         </div>
 
-        <div id="quiz-container" class="card p-4">
-            <p id="question-text" class="fs-5"></p>
-            <div id="answer-buttons" class="d-flex flex-wrap justify-content-center"></div>
-            <button id="next-button" class="btn btn-primary mt-3" onclick="nextQuestion()" disabled>Suivant</button>
+        <div id="question-container">
+            <p id="question">Chargement des questions...</p>
+            <div id="answers">
+                <button onclick="answer(0)">0</button>
+                <button onclick="answer(1)">1</button>
+                <button onclick="answer(2)">2</button>
+                <button onclick="answer(3)">3</button>
+                <button onclick="answer(4)">4</button>
+                <button onclick="answer(5)">5</button>
+            </div>
         </div>
 
-        <div id="result-container" class="card p-4 text-center mt-3" style="display: none;">
-            <h2>Résultat :</h2>
-            <p id="result-text" class="fs-4 fw-bold"></p>
-            <button class="btn btn-warning" onclick="restartQuiz()">Recommencer</button>
+        <button id="next-btn" onclick="nextQuestion()">Suivant</button>
+
+        <div id="result-container" style="display:none;">
+            <h2>Résultat</h2>
+            <p id="result-text"></p>
         </div>
     </div>
+
+    <button id="theme-toggle" onclick="toggleTheme()">
+        <img id="theme-icon" src="moon.svg" alt="Mode sombre">
+    </button>
+
+    <footer>
+        Fait avec ❤️ par Mat
+    </footer>
 
     <script src="script.js"></script>
 </body>
