@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --card-bg: #1e1e1e;
+    --btn-bg: #333;
+    --btn-hover: #555;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+button {
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    border: none;
+}
+
+button:hover {
+    background-color: var(--btn-hover);
+}

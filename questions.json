@@ -1,0 +1,22 @@
+[
+    {"question": "As-tu déjà menti ?", "type": "bool"},
+    {"question": "As-tu déjà triché à un examen ?", "type": "bool"},
+    {"question": "Sur une échelle de 0 à 5, à quel point es-tu honnête ?", "type": "scale"},
+    {"question": "As-tu déjà volé quelque chose ?", "type": "bool"},
+    {"question": "As-tu déjà bu de l'alcool ?", "type": "bool"},
+    {"question": "As-tu déjà fumé ?", "type": "bool"},
+    {"question": "As-tu déjà conduit sans permis ?", "type": "bool"},
+    {"question": "As-tu déjà été en garde à vue ?", "type": "bool"},
+    {"question": "As-tu déjà envoyé un message que tu regrettes ?", "type": "bool"},
+    {"question": "As-tu déjà fait une blague qui a blessé quelqu'un ?", "type": "bool"},
+    {"question": "À quel point es-tu fidèle en amitié (0 = pas du tout, 5 = totalement) ?", "type": "scale"},
+    {"question": "As-tu déjà insulté un prof ?", "type": "bool"},
+    {"question": "As-tu déjà trahi un ami ?", "type": "bool"},
+    {"question": "As-tu déjà regretté une action que tu as faite ?", "type": "bool"},
+    {"question": "As-tu déjà menti à tes parents ?", "type": "bool"},
+    {"question": "Sur une échelle de 0 à 5, à quel point es-tu généreux(se) ?", "type": "scale"},
+    {"question": "As-tu déjà été jaloux(se) au point de nuire à quelqu'un ?", "type": "bool"},
+    {"question": "As-tu déjà fait une action illégale ?", "type": "bool"},
+    {"question": "As-tu déjà triché en amour ?", "type": "bool"},
+    {"question": "Penses-tu que tu es une bonne personne (0 = non, 5 = oui) ?", "type": "scale"}
+]
