@@ -1,8 +1,18 @@
 [
-    { "question": "As-tu déjà menti ?", "points": 2 },
-    { "question": "As-tu déjà triché à un examen ?", "points": 3 },
-    { "question": "As-tu déjà volé quelque chose ?", "points": 5 },
-    { "question": "As-tu déjà été ivre ?", "points": 4 },
-    { "question": "As-tu déjà été amoureux ?", "points": 1 },
-    { "question": "As-tu déjà eu une relation ?", "points": 3 }
+    {
+        "question": "As-tu déjà menti à un ami ?",
+        "answers": [
+            { "text": "Oui", "penalty": 5 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "Combien de fois as-tu triché en cours ?",
+        "answers": [
+            { "text": "0", "penalty": 0 },
+            { "text": "1-2", "penalty": 5 },
+            { "text": "3-5", "penalty": 10 },
+            { "text": "Plus de 5", "penalty": 20 }
+        ]
+    }
 ]

@@ -4,45 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test de Pureté</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="dark-mode">
-
+<body>
     <div class="container">
         <h1>Test de Pureté</h1>
-        
-        <div class="progress-container">
-            <progress id="progress-bar" value="0" max="100"></progress>
-            <span id="progress-text">0%</span>
+        <div class="progress-bar-container">
+            <div id="progress" class="progress-bar"></div>
         </div>
-
-        <div id="question-container">
-            <p id="question">Chargement des questions...</p>
-            <div id="answers">
-                <button onclick="answer(0)">0</button>
-                <button onclick="answer(1)">1</button>
-                <button onclick="answer(2)">2</button>
-                <button onclick="answer(3)">3</button>
-                <button onclick="answer(4)">4</button>
-                <button onclick="answer(5)">5</button>
-            </div>
-        </div>
-
-        <button id="next-btn" onclick="nextQuestion()">Suivant</button>
-
-        <div id="result-container" style="display:none;">
-            <h2>Résultat</h2>
-            <p id="result-text"></p>
-        </div>
+        <p id="question-text">Chargement des questions...</p>
+        <div id="answers"></div>
     </div>
-
-    <button id="theme-toggle" onclick="toggleTheme()">
-        <img id="theme-icon" src="moon.svg" alt="Mode sombre">
-    </button>
 
     <footer>
         Fait avec ❤️ par Mat
     </footer>
+
+    <button id="theme-toggle">
+        <img id="theme-icon" src="moon.svg" alt="Mode sombre">
+    </button>
 
     <script src="script.js"></script>
 </body>
