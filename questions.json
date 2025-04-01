@@ -1,18 +1,205 @@
 [
     {
-        "question": "As-tu déjà menti à un ami ?",
+        "question": "🍾 • As-tu déjà bu de l'alcool ?",
+        "answers": [
+            { "text": "Oui", "penalty": 2 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🍾 • As-tu déjà été ivre ?",
+        "answers": [
+            { "text": "Oui", "penalty": 3 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🍾 • As-tu déjà vomi à cause de l'alcool ?",
+        "answers": [
+            { "text": "Oui", "penalty": 4 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🍾 • As-tu déjà fait un coma éthylique ?",
+        "answers": [
+            { "text": "Oui", "penalty": 8 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🍾 • As-tu déjà conduit après avoir bu ?",
+        "answers": [
+            { "text": "Oui", "penalty": 6 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "💊 • As-tu déjà consommé une drogue illégale ?",
         "answers": [
             { "text": "Oui", "penalty": 5 },
             { "text": "Non", "penalty": 0 }
         ]
     },
     {
-        "question": "Combien de fois as-tu triché en cours ?",
+        "question": "💊 • As-tu déjà fumé du cannabis ?",
         "answers": [
-            { "text": "0", "penalty": 0 },
-            { "text": "1-2", "penalty": 5 },
-            { "text": "3-5", "penalty": 10 },
-            { "text": "Plus de 5", "penalty": 20 }
+            { "text": "Oui", "penalty": 3 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "💊 • As-tu déjà pris une drogue dure (cocaïne, héroïne, etc.) ?",
+        "answers": [
+            { "text": "Oui", "penalty": 10 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "💊 • As-tu déjà vendu de la drogue ?",
+        "answers": [
+            { "text": "Oui", "penalty": 12 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "💊 • As-tu déjà été sous l'effet de drogues en public ?",
+        "answers": [
+            { "text": "Oui", "penalty": 5 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà eu une relation sexuelle ?",
+        "answers": [
+            { "text": "Oui", "penalty": 4 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà eu des relations avec plusieurs partenaires ?",
+        "answers": [
+            { "text": "Oui", "penalty": 6 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà pratiqué un rapport non protégé ?",
+        "answers": [
+            { "text": "Oui", "penalty": 7 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà regardé du contenu adulte ?",
+        "answers": [
+            { "text": "Oui", "penalty": 2 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà eu une relation sexuelle dans un lieu public ?",
+        "answers": [
+            { "text": "Oui", "penalty": 8 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà eu une aventure d'un soir ?",
+        "answers": [
+            { "text": "Oui", "penalty": 5 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà utilisé une application de rencontres pour trouver un(e) partenaire ?",
+        "answers": [
+            { "text": "Oui", "penalty": 3 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà été infidèle ?",
+        "answers": [
+            { "text": "Oui", "penalty": 7 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🔥 • As-tu déjà pratiqué le BDSM ou des pratiques sexuelles extrêmes ?",
+        "answers": [
+            { "text": "Oui", "penalty": 6 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🛁 • Te laves-tu les mains après être allé aux toilettes ?",
+        "answers": [
+            { "text": "Oui", "penalty": 0 },
+            { "text": "Non", "penalty": 4 }
+        ]
+    },
+    {
+        "question": "🛁 • As-tu déjà porté les mêmes sous-vêtements plus de deux jours d'affilée ?",
+        "answers": [
+            { "text": "Oui", "penalty": 5 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🛁 • Nettoies-tu régulièrement ta chambre et tes affaires personnelles ?",
+        "answers": [
+            { "text": "Oui", "penalty": 0 },
+            { "text": "Non", "penalty": 3 }
+        ]
+    },
+    {
+        "question": "🛁 • As-tu déjà utilisé du déodorant pour masquer un manque de douche ?",
+        "answers": [
+            { "text": "Oui", "penalty": 4 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "🛁 • Te laves-tu tous les jours ?",
+        "answers": [
+            { "text": "Oui", "penalty": 0 },
+            { "text": "Non", "penalty": 3 }
+        ]
+    },
+    {
+        "question": "🛁 • Te brosses-tu les dents au moins deux fois par jour ?",
+        "answers": [
+            { "text": "Oui", "penalty": 0 },
+            { "text": "Non", "penalty": 3 }
+        ]
+    },
+    {
+        "question": "⚖️ • As-tu déjà volé quelque chose ?",
+        "answers": [
+            { "text": "Oui", "penalty": 5 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "⚖️ • As-tu déjà menti pour éviter des ennuis ?",
+        "answers": [
+            { "text": "Oui", "penalty": 3 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "⚖️ • As-tu déjà aidé quelqu'un en difficulté ?",
+        "answers": [
+            { "text": "Oui", "penalty": -3 },
+            { "text": "Non", "penalty": 0 }
+        ]
+    },
+    {
+        "question": "⚖️ • As-tu déjà fait du bénévolat ?",
+        "answers": [
+            { "text": "Oui", "penalty": -5 },
+            { "text": "Non", "penalty": 0 }
         ]
     }
 ]

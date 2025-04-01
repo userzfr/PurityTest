@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (score > 80) resultText += "Pur 😇";
         else if (score > 60) resultText += "Plutôt pur 🙂";
         else if (score > 40) resultText += "Normal 😏";
-        else resultText += "Plutôt impur 😈";
+        else resultText += "Impur 😈";
 
         questionText.innerHTML = resultText;
         answersDiv.innerHTML = "";
